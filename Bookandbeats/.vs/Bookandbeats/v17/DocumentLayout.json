@@ -1,0 +1,845 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Bookandbeats\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\authorsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\authorsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\genreapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\genreapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\playlistsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\playlistsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\playlistsongapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\playlistsongapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\playlistsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\playlistsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\songsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\songsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\interfaces\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\interfaces\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\interfaces\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\services\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\services\\songservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\bookauthorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\bookauthorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\bookauthorsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\bookauthorsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\bookauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\bookauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\bookplaylistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\bookplaylistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\controllers\\bookplaylistsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\controllers\\bookplaylistsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\bookplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\bookplaylist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\playlistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\playlistsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.Authors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\dbo.Authors.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\dbo.BookAuthors.data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.BookAuthors.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\bookandbeats.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\bookandbeats.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|c:\\users\\user\\source\\repos\\bookandbeats\\bookandbeats\\migrations\\20241127074420_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B53236E-6421-4D4D-9997-DC39C60EF0A9}|Bookandbeats\\Bookandbeats.csproj|solutionrelative:bookandbeats\\migrations\\20241127074420_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookService .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IBookService .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookAuthorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IBookAuthorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IGenreService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IGenreService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IPlaylistService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistSongService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Interfaces\\IPlaylistSongService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\GenreService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\GenreService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\PlaylistService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistSongService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\PlaylistSongService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\BookService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookAuthorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\BookAuthorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookPlaylistService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookandbeats\\Services\\BookPlaylistService.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\GenreController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAwJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:21:54.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenreAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\GenreAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\GenreAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\GenreAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\GenreAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:48:19.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Program.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Program.cs",
+              "RelativeToolTip": "Bookandbeats\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:22:52.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\AuthorsAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\AuthorsAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\AuthorsAPIController.cs*",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\AuthorsAPIController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:07:46.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\AuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:15:23.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlaylistsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistsAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\PlaylistsAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistsAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\PlaylistsAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:43:35.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlaylistsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistsController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\PlaylistsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistsController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\PlaylistsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:18:22.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlaylistSongAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistSongAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\PlaylistSongAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistSongAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\PlaylistSongAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:32:42.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlaylistSongController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistSongController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\PlaylistSongController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\PlaylistSongController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\PlaylistSongController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:35:05.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SongsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\SongsAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\SongsAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\SongsAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\SongsAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:51:06.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\SongsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\SongsController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:21:05.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IGenreService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IGenreService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IGenreService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IGenreService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IGenreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:29:06.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IAuthorService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IAuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:22:05.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IBookAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookAuthorService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IBookAuthorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookAuthorService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IBookAuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:40:18.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IBookPlaylistService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IBookPlaylistService.cs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:35:07.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBookService .cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookService .cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IBookService .cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IBookService .cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IBookService .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:45:34.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IPlaylistService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IPlaylistService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IPlaylistService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:11:39.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IPlaylistSongService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistSongService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\IPlaylistSongService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\IPlaylistSongService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\IPlaylistSongService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:47:33.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISongService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\ISongService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Interfaces\\ISongService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Interfaces\\ISongService.cs",
+              "RelativeToolTip": "Bookandbeats\\Interfaces\\ISongService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:08:50.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GenreService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\GenreService.cs.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\GenreService.cs.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\GenreService.cs.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\GenreService.cs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:30:02.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PlaylistService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\PlaylistService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\PlaylistService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:15:17.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PlaylistSongService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistSongService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\PlaylistSongService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\PlaylistSongService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\PlaylistSongService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:48:31.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SongService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\SongService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\SongService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\SongService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\SongService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:08:59.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\BookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:46:14.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BookAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookAuthorService.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\BookAuthorService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookAuthorService.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\BookAuthorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:41:07.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BookPlaylistService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookPlaylistService.cs.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Services\\BookPlaylistService.cs.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Services\\BookPlaylistService.cs.cs",
+              "RelativeToolTip": "Bookandbeats\\Services\\BookPlaylistService.cs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:35:58.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:17:41.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Author.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:53:50.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:16:51.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BooksAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BooksAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BooksAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BooksAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BooksAPIController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:55:05.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookAuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookAuthorsController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BookAuthorsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookAuthorsController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BookAuthorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:25:30.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookAuthorsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookAuthorsAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BookAuthorsAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookAuthorsAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BookAuthorsAPIController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:04:49.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Book.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:51:47.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Genre.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:52:35.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookPlaylistsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookPlaylistsAPIController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BookPlaylistsAPIController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookPlaylistsAPIController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BookPlaylistsAPIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T04:00:18.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookPlaylistsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookPlaylistsController.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Controllers\\BookPlaylistsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Controllers\\BookPlaylistsController.cs",
+              "RelativeToolTip": "Bookandbeats\\Controllers\\BookPlaylistsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:26:26.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\BookAuthor.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\BookAuthor.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\BookAuthor.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\BookAuthor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T06:07:55.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:49:26.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookPlaylist.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\BookPlaylist.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\BookPlaylist.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\BookPlaylist.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\BookPlaylist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:56:53.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Playlist.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\Playlist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:54:30.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\appsettings.json",
+              "RelativeDocumentMoniker": "Bookandbeats\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\appsettings.json",
+              "RelativeToolTip": "Bookandbeats\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T06:10:01.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PlaylistSong.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\PlaylistSong.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\PlaylistSong.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\PlaylistSong.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\PlaylistSong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:57:25.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-27T22:59:05.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dbo.Authors.data ",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\dbo.Authors.data.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\dbo.Authors.data.sql",
+              "ToolTip": "dbo.Authors.data *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-27T22:56:20.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.BookAuthors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.BookAuthors.sql",
+              "ToolTip": "dbo.BookAuthors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-27T22:56:43.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "dbo.BookAuthors.data ",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\dbo.BookAuthors.data.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\dbo.BookAuthors.data.sql",
+              "ToolTip": "dbo.BookAuthors.data *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-27T22:56:55.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dbo.Authors [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/BookandBeatsDb/True/SqlTable/dbo.Authors.sql",
+              "ToolTip": "dbo.Authors [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-27T22:56:12.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Models\\Song.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Models\\Song.cs",
+              "RelativeToolTip": "Bookandbeats\\Models\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:55:02.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Bookandbeats\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:48:48.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Bookandbeats.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
+              "RelativeDocumentMoniker": "Bookandbeats\\Bookandbeats.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
+              "RelativeToolTip": "Bookandbeats\\Bookandbeats.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T17:13:43.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bookandbeats\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bookandbeats\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBkAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T17:43:15.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20241127074420_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Migrations\\20241127074420_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Bookandbeats\\Migrations\\20241127074420_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Migrations\\20241127074420_InitialCreate.cs",
+              "RelativeToolTip": "Bookandbeats\\Migrations\\20241127074420_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T07:44:20.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ﻿using BookandBeats.Models;
 using BookandBeats.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookandBeats.Controllers
@@ -53,6 +54,7 @@ namespace BookandBeats.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, BookAuthor bookAuthor)
         {
@@ -75,6 +77,7 @@ namespace BookandBeats.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

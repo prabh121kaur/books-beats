@@ -1,0 +1,29 @@
+﻿@model IEnumerable<BookandBeats.Models.BookPlaylist>
+
+<h1>Book Playlists</h1>
+
+<a asp-action="Create" class="btn btn-primary">Add New Playlist</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Playlist Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bookPlaylist in Model)
+        {
+            <tr>
+                <td>@bookPlaylist.Book.Title</td>
+                <td>@bookPlaylist.Playlist.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@bookPlaylist.BookPlaylistId" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@bookPlaylist.BookPlaylistId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@bookPlaylist.BookPlaylistId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

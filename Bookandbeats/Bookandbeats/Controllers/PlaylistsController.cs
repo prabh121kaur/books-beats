@@ -1,5 +1,6 @@
 ﻿using BookandBeats.Models;
 using CoreEntityFramework.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -27,6 +28,7 @@ namespace CoreEntityFramework.Controllers
 
         // GET: api/Playlists/5
         [HttpGet("{id}")]
+     
         public async Task<ActionResult<Playlist>> GetPlaylist(int id)
         {
             var playlist = await _playlistService.GetPlaylistByIdAsync(id);
@@ -69,7 +71,9 @@ namespace CoreEntityFramework.Controllers
         }
 
         // DELETE: api/Playlists/5
+
         [HttpDelete("{id}")]
+        
         public async Task<IActionResult> DeletePlaylist(int id)
         {
             await _playlistService.DeletePlaylistAsync(id);

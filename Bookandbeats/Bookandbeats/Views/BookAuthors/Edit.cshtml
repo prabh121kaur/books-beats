@@ -1,0 +1,19 @@
+﻿@model BookandBeats.Models.BookAuthor
+
+<h1>Edit Book-Author Association</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="BookAuthorId" />
+    <div class="form-group">
+        <label asp-for="BookId" class="control-label"></label>
+        <select asp-for="BookId" class="form-control" asp-items="@(new SelectList(ViewBag.Books, "BookId", "Title", Model.BookId))"></select>
+        <span asp-validation-for="BookId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AuthorId" class="control-label"></label>
+        <select asp-for="AuthorId" class="form-control" asp-items="@(new SelectList(ViewBag.Authors, "AuthorId", "FirstName", Model.AuthorId))"></select>
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

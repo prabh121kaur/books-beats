@@ -1,0 +1,31 @@
+﻿@model BookandBeats.Models.Playlist
+
+@{
+    ViewData["Title"] = "Edit Playlist";
+}
+
+<h1>Edit Playlist</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="PlaylistId" />
+    <div class="form-group">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Mood" class="form-label">Mood</label>
+        <input asp-for="Mood" class="form-control" />
+        <span asp-validation-for="Mood" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PrivacySetting" class="form-label">Privacy Setting</label>
+        <select asp-for="PrivacySetting" class="form-control">
+            <option>Public</option>
+            <option>Private</option>
+        </select>
+        <span asp-validation-for="PrivacySetting" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

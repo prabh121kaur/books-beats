@@ -1,0 +1,21 @@
+﻿@model BookandBeats.Models.PlaylistSong
+
+@{
+    ViewData["Title"] = "Delete Playlist Song";
+}
+
+<h1>Delete Playlist Song</h1>
+
+<p>Are you sure you want to remove this song from the playlist?</p>
+
+<div>
+    <p><strong>Playlist:</strong> @Model.Playlist.Name</p>
+    <p><strong>Song:</strong> @Model.Song.Title</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="PlaylistId" />
+    <input type="hidden" asp-for="SongId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

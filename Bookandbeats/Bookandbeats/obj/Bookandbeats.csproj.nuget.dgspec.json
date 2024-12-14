@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj": {}
+    "C:\\Users\\user\\collab project\\Book-Beats\\books-beats\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj": {
+    "C:\\Users\\user\\collab project\\Book-Beats\\books-beats\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
+        "projectUniqueName": "C:\\Users\\user\\collab project\\Book-Beats\\books-beats\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
         "projectName": "Bookandbeats",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
+        "projectPath": "C:\\Users\\user\\collab project\\Book-Beats\\books-beats\\Bookandbeats\\Bookandbeats\\Bookandbeats.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Bookandbeats\\Bookandbeats\\obj\\",
+        "outputPath": "C:\\Users\\user\\collab project\\Book-Beats\\books-beats\\Bookandbeats\\Bookandbeats\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

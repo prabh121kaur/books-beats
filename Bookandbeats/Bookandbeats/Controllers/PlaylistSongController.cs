@@ -3,6 +3,7 @@ using BookandBeats.Models;
 using BookandBeats.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookandBeats.Controllers
 {
@@ -59,6 +60,7 @@ namespace BookandBeats.Controllers
 
         // POST: PlaylistSongs/Edit/5
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int playlistId, int songId, PlaylistSong playlistSong)
         {
@@ -89,6 +91,7 @@ namespace BookandBeats.Controllers
         }
 
         // POST: PlaylistSongs/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int playlistId, int songId)

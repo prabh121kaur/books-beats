@@ -1,0 +1,33 @@
+﻿@model IEnumerable<BookandBeats.Models.Genre>
+
+@{
+    ViewData["Title"] = "Genres";
+}
+
+<h1>Genres</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Genre</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var genre in Model)
+        {
+            <tr>
+                <td>@genre.Name</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@genre.GenreId" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@genre.GenreId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@genre.GenreId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

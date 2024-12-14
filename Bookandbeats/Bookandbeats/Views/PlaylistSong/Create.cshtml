@@ -1,0 +1,30 @@
+﻿@model BookandBeats.Models.PlaylistSong
+
+@{
+    ViewData["Title"] = "Add Playlist Song";
+}
+
+<h1>Add Playlist Song</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="PlaylistId" class="form-label">Playlist</label>
+        <select asp-for="PlaylistId" class="form-control">
+            <!-- Replace this with data from ViewBag/Model -->
+            <option value="1">Playlist 1</option>
+            <option value="2">Playlist 2</option>
+        </select>
+        <span asp-validation-for="PlaylistId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SongId" class="form-label">Song</label>
+        <select asp-for="SongId" class="form-control">
+            <!-- Replace this with data from ViewBag/Model -->
+            <option value="1">Song 1</option>
+            <option value="2">Song 2</option>
+        </select>
+        <span asp-validation-for="SongId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

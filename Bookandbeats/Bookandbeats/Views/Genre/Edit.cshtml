@@ -1,0 +1,19 @@
+﻿@model BookandBeats.Models.Genre
+
+@{
+    ViewData["Title"] = "Edit Genre";
+}
+
+<h1>Edit Genre</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="GenreId" />
+    <div class="form-group">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

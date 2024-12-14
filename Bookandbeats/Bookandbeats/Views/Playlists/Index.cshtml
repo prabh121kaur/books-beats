@@ -1,0 +1,37 @@
+﻿@model IEnumerable<BookandBeats.Models.Playlist>
+
+@{
+    ViewData["Title"] = "Playlists";
+}
+
+<h1>Playlists</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Playlist</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Mood</th>
+            <th>Privacy</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var playlist in Model)
+        {
+            <tr>
+                <td>@playlist.Name</td>
+                <td>@playlist.Mood</td>
+                <td>@playlist.PrivacySetting</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@playlist.PlaylistId" class="btn btn-info">Details</a>
+                    <a asp-action="Edit" asp-route-id="@playlist.PlaylistId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@playlist.PlaylistId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

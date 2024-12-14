@@ -1,0 +1,33 @@
+﻿@model BookandBeats.Models.Playlist
+
+@{
+    ViewData["Title"] = "Playlist Details";
+}
+
+<h1>@Model.Name</h1>
+
+<p><strong>Mood:</strong> @Model.Mood</p>
+<p><strong>Privacy Setting:</strong> @Model.PrivacySetting</p>
+
+<p>
+    <strong>Associated Books:</strong>
+    @if (Model.BookPlaylists != null && Model.BookPlaylists.Any())
+    {
+        <ul>
+            @foreach (var bookPlaylist in Model.BookPlaylists)
+            {
+                <li>@bookPlaylist.Book.Title</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <span>No associated books.</span>
+    }
+</p>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.PlaylistId" class="btn btn-warning">Edit</a>
+    <a asp-action="Delete" asp-route-id="@Model.PlaylistId" class="btn btn-danger">Delete</a>
+</p>

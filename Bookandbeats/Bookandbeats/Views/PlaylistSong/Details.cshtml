@@ -1,0 +1,16 @@
+﻿@model BookandBeats.Models.PlaylistSong
+
+@{
+    ViewData["Title"] = "Playlist Song Details";
+}
+
+<h1>Playlist Song Details</h1>
+
+<p><strong>Playlist:</strong> @Model.Playlist.Name</p>
+<p><strong>Song:</strong> @Model.Song.Title</p>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    <a asp-action="Edit" asp-route-playlistId="@Model.PlaylistId" asp-route-songId="@Model.SongId" class="btn btn-warning">Edit</a>
+    <a asp-action="Delete" asp-route-playlistId="@Model.PlaylistId" asp-route-songId="@Model.SongId" class="btn btn-danger">Delete</a>
+</p>

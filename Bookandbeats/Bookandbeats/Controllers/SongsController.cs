@@ -1,4 +1,5 @@
 ﻿using BookandBeats.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -74,6 +75,7 @@ namespace BookandBeats.Controllers
 
         // POST: Songs/Edit/5
         [HttpPost]
+      
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("SongId,Title,Artist")] Song song)
         {
@@ -108,7 +110,9 @@ namespace BookandBeats.Controllers
         }
 
         // POST: Songs/Delete/5
+        
         [HttpPost, ActionName("Delete")]
+       
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

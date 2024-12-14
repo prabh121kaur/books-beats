@@ -1,0 +1,35 @@
+﻿@model BookandBeats.Models.BookPlaylist
+
+<h1>Edit Book Playlist</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="BookPlaylistId" />
+
+    <div class="form-group">
+        <label asp-for="BookId" class="control-label">Book</label>
+        <select asp-for="BookId" class="form-control">
+            <option value="">Select a Book</option>
+            @foreach (var book in ViewBag.Books)
+            {
+                <option value="@book.BookId" selected="@((book.BookId == Model.BookId) ? "selected" : "")">@book.Title</option>
+
+            }
+        </select>
+        <span asp-validation-for="BookId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PlaylistId" class="control-label">Playlist</label>
+        <select asp-for="PlaylistId" class="form-control">
+            <option value="">Select a Playlist</option>
+            @foreach (var playlist in ViewBag.Playlists)
+            {
+                <option value="@playlist.PlaylistId" selected =@(playlist.PlaylistId == Model.PlaylistId ? "selected" : "")>@playlist.Name</option>
+            }
+        </select>
+        <span asp-validation-for="PlaylistId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -2,6 +2,7 @@
 using Bookandbeats.Models;
 using Microsoft.EntityFrameworkCore;
 using BookandBeats.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bookandbeats.Controllers
 {
@@ -76,6 +77,7 @@ namespace Bookandbeats.Controllers
 
         // POST: Genres/Edit/5
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("GenreId,Name")] Genre genre)
         {
@@ -127,6 +129,7 @@ namespace Bookandbeats.Controllers
 
         // POST: Genres/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
